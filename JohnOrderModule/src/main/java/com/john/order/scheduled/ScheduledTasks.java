@@ -1,4 +1,4 @@
-package com.maike.order.scheduled;
+package com.john.order.scheduled;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

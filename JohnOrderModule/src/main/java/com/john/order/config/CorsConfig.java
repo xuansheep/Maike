@@ -1,4 +1,4 @@
-package com.maike.order.config;
+package com.john.order.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,4 +1,4 @@
-package com.maike.order;
+package com.john.order;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
