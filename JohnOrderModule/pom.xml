@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>maike-order-module</artifactId>
+    <artifactId>john-order-module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>maike-order-module</name>
+    <name>john-order-module</name>
     <description>Demo project for Spring Boot</description>
 
     <packaging>jar</packaging>
