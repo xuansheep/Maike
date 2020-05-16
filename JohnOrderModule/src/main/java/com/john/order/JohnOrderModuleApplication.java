@@ -9,11 +9,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @ServletComponentScan
-@MapperScan(basePackages={"com.maike.order.dao"})
-public class MaikeOrderModuleApplication {
+@MapperScan(basePackages={"com.john.order.dao"})
+public class JohnOrderModuleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MaikeOrderModuleApplication.class, args);
+        SpringApplication.run(JohnOrderModuleApplication.class, args);
     }
 
 }
