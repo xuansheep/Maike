@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @ServletComponentScan
-@MapperScan(basePackages={"com.john.order.dao"})
+@MapperScan(basePackages={"com.john.order"})
 public class JohnOrderModuleApplication {
 
     public static void main(String[] args) {
