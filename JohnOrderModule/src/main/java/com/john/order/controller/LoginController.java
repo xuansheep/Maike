@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/login")
 public class LoginController extends BaseController {
+
     @RequestMapping(value = "/apply" , method = { RequestMethod.POST})
     public String apply(){
-
         return "success";
     }
 }

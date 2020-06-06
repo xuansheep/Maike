@@ -13,7 +13,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <mybatis.plus.version>3.1.0</mybatis.plus.version>
+        <!--<mybatis.plus.version>3.1.0</mybatis.plus.version>-->
         <aliyun.core.version>3.2.8</aliyun.core.version>
         <aliyun.dysmsapi.version>1.1.0</aliyun.dysmsapi.version>
         <druid.version>1.1.9</druid.version>
@@ -56,11 +56,11 @@
         </dependency>
 
         <!--mybatis-plus-->
-        <dependency>
+        <!--<dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis.plus.version}</version>
-        </dependency>
+        </dependency>-->
 
         <!--mysql的连接驱动-->
         <dependency>
