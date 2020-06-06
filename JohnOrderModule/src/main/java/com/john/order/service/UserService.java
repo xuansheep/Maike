@@ -4,4 +4,6 @@ import com.john.order.domain.dto.UserDTO;
 
 public interface UserService {
     void saveUser(UserDTO user);
+
+    boolean login(String username, String password);
 }

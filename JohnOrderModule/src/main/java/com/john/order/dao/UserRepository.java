@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 @Mapper
 public interface UserRepository extends JpaRepository<UserDTO, Long> {
 
+    UserDTO findByUsername(String username);
 }

@@ -35,4 +35,9 @@ public class LoginControllerTestCase {
         userService.saveUser(user);
     }
 
+    @Test
+    public void login(){
+        boolean b = userService.login("xuhang", "123456");
+    }
+
 }
