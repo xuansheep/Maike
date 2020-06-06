@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>john-order-module</artifactId>
+    <artifactId>johnOrderModule</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>john-order-module</name>
     <description>Demo project for Spring Boot</description>

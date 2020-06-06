@@ -2,15 +2,15 @@ package com.john.order.domain.dto;
 
 import lombok.Data;
 
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 @Data
+@Entity
 @Table(name = "t_user")
-public class UserDTO {
+public class UserDTO extends BaseDTO {
 
-    private Long id;
-
+    @Column(length = 32, unique = true)
     private String username;
 
     private String password;
